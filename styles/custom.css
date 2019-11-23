@@ -1,0 +1,31 @@
+.img-h165--cover {
+  object-fit: cover;
+  height: 165px;
+}
+
+.img-round {
+  border-radius: 50%;
+}
+
+.reset_col {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* home button */
+.home_button {
+  margin-top: 68px;
+  border: 1px solid white;
+}
+.home_button a {
+  color: white;
+}
+.home_button a:hover {
+  color: #4867c0;
+  background: white;
+}
+.home_button::before {
+  background-color: transparent;
+  background-image: none;
+  background: none;
+}
